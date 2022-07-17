@@ -9,7 +9,7 @@ function Signinform () {
             <div className="signin__container">
                 <div className="signin">
                 <header className="signin_headerbox">
-                    <h2>Registrarme</h2>
+                    <h2>Sign up</h2>
                 </header>
                 <div action="" className="signin__form">
                     <input className="signin__namebox" type="text" name="names" placeholder="First name" />
