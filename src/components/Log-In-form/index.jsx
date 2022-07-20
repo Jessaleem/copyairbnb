@@ -19,7 +19,7 @@ return (
                 <div className="Login__divisor">
                     <p>or</p>
                 </div>
-                <button className="Login__btn__Signin"><b>Sign In</b></button>
+                <button className="Login__btn__Signin"><b>Sign un</b></button>
             </form>
             </div>
         </div>

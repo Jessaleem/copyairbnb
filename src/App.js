@@ -1,16 +1,12 @@
 
 import './App.css';
-import Signinform from './components/Sign-In-form';
-import Loginform from './components/Log-In-form';
-
+import Home from './pages/Home';
 
 
 function App() {
   return (
-    <div className="App">
-     
-      <Loginform />
-      <Signinform />  
+    <div className="App">     
+      <Home />    
             
     </div>
   );
