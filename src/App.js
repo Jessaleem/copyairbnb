@@ -2,7 +2,7 @@
 import './App.css';
 // import Home from './pages/Home';
 // import Loginform from './components/Log-In-form'
-import Signupform from './components/Sign-In-form'
+import Signupform from './components/Sign-up-form'
 
 
 function App() {
