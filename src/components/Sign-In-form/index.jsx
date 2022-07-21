@@ -23,7 +23,8 @@ function Signupform () {
                     <input className="signup__textbox" type="email" name="email" placeholder="Email" />
                     <p className="signup__helptext">We'll email you trip confirmations and receipts.</p>
                     <input className="signup__textbox" type="password" name="password" placeholder="Password"/>
-                    <p className="signup__policies1">By selecting Agree and continue, I agree to Airbnb's <a target="blank" href="">Terms of Service</a>, <a target="blank" href="">Payments Terms of Service</a>, <a target="blank" href="">Nondiscrimination Policy</a> and <a target="blank" href="">Colombia Privacy Supplement</a>, and acknowledge the <a target="blank" href="">Privacy Policy.</a></p>
+                    <p className="signup__policies1">By selecting Agree and continue, I agree to Airbnb's <a className="signup__policies2" target="blank">Terms of Service</a>, 
+                     <a className="signup__policies2" target="blank"> Payments Terms of Service</a>, <a className="signup__policies2" target="blank"> Nondiscrimination Policy</a> and <a className="signup__policies2" target="blank">Colombia Privacy Supplement</a>, and acknowledge the <a className="signup__policies2" target="blank">Privacy Policy.</a></p>
                     <button className="signup__btn"><b>Agree and continue</b></button>
                     <p className="signup__final">Airbnb will send you members-only deals, inspiration, marketing emails, and push notifications. You can opt out of receiving these at any time in your account settings or directly from the marketing notification.
                     </p>

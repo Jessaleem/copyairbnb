@@ -40,7 +40,6 @@
     justify-content: center;
     padding: 0px 24px;
     flex-direction:column;
-   //  flex: 0 0 auto;
     align-items: center;
     min-height: 48px;
     line-height: 20px;
@@ -50,7 +49,7 @@
     margin-top: -20px;
     border-bottom: 1px solid rgb(235, 235, 235);
     color: rgb(34, 34, 34);
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
     
@@ -149,8 +148,14 @@
     font-size: 12px;
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 15px;      
+}
+
+.signup__policies2{
+   color:rgb(0, 56, 171); 
+   text-decoration: underline;
+   font-weight: 600;
 }
 
 .signup__btn{
@@ -247,7 +252,7 @@
     max-width: 465px;
     border-radius: 12px;
     border: 1px solid #B0B0B0;
-    box-shadow: none;
+    box-shadow: rgb(0 0 0 / 28%) 0px 8px 28px;;
  }
 
  .signup__header{   
@@ -255,7 +260,7 @@
 
  }
  .signup_headerbox{
-    font-size: 8px;
+    font-size: 10px;
 
 }
 }
