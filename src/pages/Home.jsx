@@ -1,19 +1,15 @@
+import Header from '../components/Header'
+import MainSection from '../components/MainSection'
+import Footer from '../components/Footer'
 
-import Header from "../components/Header";
-import MainSection from "../components/SpacesSection";
-import Footer from "../components/Footer";
-
-const Home = () => {
-
-    return (
-
-        <div>
-        <Header/>
-        <MainSection />
-        <Footer/>
-        </div>
-
-    )
+export const Home = () => {
+  return (
+    <>
+      <Header />
+      <MainSection />
+      <Footer />
+    </>
+ )
 }
 
-export default Home;
+export default Home
